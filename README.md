@@ -11,9 +11,9 @@ comportamento da performance, a medida que os valores dos principais
 parâmetros de controle de overfitting e underfitting mudam.
 # Planejamento da solução
 ## Produto final
-O produto final será 7 tabelas mostrando a performance dos algoritmos,
-avaliados usando múltiplas métricas, para 3 conjuntos de dados
-diferentes: Treinamento, validação e teste.
+O produto final será 3 tabelas mostrando a performance dos algoritmos,
+avaliados usando múltiplas métricas, para o conjuntos de dados
+de teste.
 ## Algoritmos ensaiados
 ### Classificação:
 Algoritmos: KNN, Decision Tree, Random Forest e Logistic Regression
@@ -60,16 +60,14 @@ Passo 9: Avaliar os ensaios e anotar os 3 principais Insights que se
 destacaram.
 # Os top 3 Insights
 ### Insight Top 1
-Os algoritmos baseado em árvores possuem uma performance melhores
+Os algoritmos baseado em árvores possuem uma performance melhor
 em todas as métricas, quando aplicados sobre os dados de teste, no
-ensaio de Classificação.
+ensaio de Classificação e também para a Regressão.
 ## Insight Top 2
-A performance dos algoritmos de classificação sobre os dados de
-validação ficou bem próxima da performance sobre os dados de teste.
+A regularização nao melhorou os resultados, a principal hipótese foi pelo fato dos modelos estarem jpa bem generalizados graças a estrategia de treino, validação e teste. No geral a estartégia Ridge apresentou melhor desempenho que a Lasso indicando que é melhor nao descartar nenhum atributo dos dados.
 ## Insight Top 3
 Todos os algoritmo de regressão não apresentaram boas métricas de
-performance, o que mostra uma necessidade de uma seleção de atributos
-e uma preparação melhor das variáveis independentes do conjunto de
+performance, o que mostra uma preparação melhor das variáveis independentes do conjunto de
 dados.
 # Resultados
 ## Ensaio de classificação:
@@ -95,7 +93,7 @@ e overfitting desses algoritmos.
 Esse ensaio de Machine Learning foi muito importante para aprofundar o
 entendimento sobre o funcionamento de diversos algoritmos de
 classificação, regressão e clusterização e quais os principais parâmetros
-de controle entre os estados de underfitting e overfitting.
+de controle entre os estados de underfitting e overfitting e estratégias para contornar esses problemas.
 # Próximos passos
 Como próximos passos desse ensaio, pretendo ensaiar novos algoritmos
 de Machine Learning e usar diferentes conjuntos de dados para aumentar
