@@ -1,4 +1,5 @@
 # Ensaio de Machine Learning
+![ml_image]( img/ml.png)
 ## Descrição
 A empresa Data Money acredita que a expertise no treinamento e ajuste
 fino dos algoritmos, feito pelos Cientistas de Dados da empresa, é a
@@ -11,7 +12,7 @@ comportamento da performance, a medida que os valores dos principais
 parâmetros de controle de overfitting e underfitting mudam.
 # Planejamento da solução
 ## Produto final
-O produto final será 3 tabelas mostrando a performance dos algoritmos,
+O produto final serão 3 tabelas mostrando a performance dos algoritmos,
 avaliados usando múltiplas métricas, para o conjuntos de dados
 de teste.
 ## Algoritmos ensaiados
