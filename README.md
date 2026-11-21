@@ -5,6 +5,8 @@ A empresa Data Money acredita que a expertise no treinamento e ajuste
 fino dos algoritmos, feito pelos Cientistas de Dados da empresa, é a
 principal motivo dos ótimos resultados que as consultorias vem
 entregando aos seus clientes.
+Este é um projeto de estudo, feito ao final de um curso de Machine Learning, com um cenário fictício. Os conjuntos de dados não estão incluídos neste repositório.
+
 ## Objetivo
 O objetivo desse projeto será realizar ensaios com algoritmos de
 Classificação, Regressão e Clusterização, para estudar a mudança do
@@ -65,7 +67,7 @@ Os algoritmos baseado em árvores possuem uma performance melhor
 em todas as métricas, quando aplicados sobre os dados de teste, no
 ensaio de Classificação e também para a Regressão.
 ## Insight Top 2
-A regularização nao melhorou os resultados, a principal hipótese foi pelo fato dos modelos estarem jpa bem generalizados graças a estrategia de treino, validação e teste. No geral a estartégia Ridge apresentou melhor desempenho que a Lasso indicando que é melhor nao descartar nenhum atributo dos dados.
+A regularização não melhorou os resultados, a principal hipótese foi pelo fato dos modelos estarem já bem generalizados graças à estratégia de treino, validação e teste. No geral a estratégia Ridge apresentou melhor desempenho que a Lasso indicando que é melhor não descartar nenhum atributo dos dados.
 ## Insight Top 3
 Todos os algoritmo de regressão não apresentaram boas métricas de
 performance, o que mostra uma preparação melhor das variáveis independentes do conjunto de
@@ -83,7 +85,7 @@ dados.
 # Conclusão
 Nesse ensaio de Machine Learning, consegui adquirir experiência e
 entender melhor sobre os limites dos algoritmos entre os estados de
-underffiting e overfitting.
+underfitting e overfitting.
 Algoritmos baseados em árvores são sensível quanto a profundidade do
 crescimento e do número de árvores na floresta, fazendo com que a
 escolha correta dos valores desses parâmetros impeçam os algoritmos de
